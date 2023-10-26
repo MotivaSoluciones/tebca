@@ -25,26 +25,59 @@
     </div>
     <div id="header-ontop" class="is-sticky"></div>
     <header id="header" class="header style3">
-        <div class="container-fluid">
+        <div class="container">
             <div class="main-menu-wapper">
                 <div class="row">
-                    <div class="col-sm-12 logo-wapper visible-xs visible-sm">
+                    <div class="col-sm-12 col-md-3 logo-wapper">
                         <div class="logo">
-                            <a href="index.html"><img src="images/logos/mundo.png" height="40"></a>
-                            <img src="images/logos/logo.png" alt="" height="36" style="float: right">
+                            <a href="index.html"><img src="images/logos/mundo.png" alt="" width="250"></a>
                         </div>
                     </div>
-                    <div class="col-sm-12 menu-wapper ">
-                        <div class="top-header visible-xs">
+                    <div class="col-sm-12 col-md-9 menu-wapper">
+                        <div class="top-header">
                             <span class="mobile-navigation"><i class="fa fa-bars"></i></span>
+                            <!--							<div class="slogan"><img src="images/logos/mundo.png" height="44" alt=""></div>-->
                             <div class="box-control">
                                 <form class="box-search">
-                                    <button class="button-search"><i class="fa fa-search"></i></button>
-                                    <input type="text" class="search" placeholder="Buscador">
+                                    <div class="inner">
+                                        <input type="text" class="search" placeholder="Busca lo que necesitas">
+                                        <button class="button-search"><span class="pe-7s-search"></span></button>
+                                    </div>
                                 </form>
                                 <div class="mini-cart">
-                                    <a class="cart-link" href="carrito.html"><span class="icon pe-7s-cart"></span> <span class="count">2</span></a>
-
+                                    <a class="cart-link" href="#"><span class="icon pe-7s-cart"></span> <span class="count">2</span> S/ 253.80</a>
+                                    <div class="show-shopping-cart">
+                                        <h3 class="title">Tienes <span class="text-primary">(2 productos)</span> en tu carrito de compras</h3>
+                                        <ul class="list-product">
+                                            <li>
+                                                <div class="thumb">
+                                                    <img src="images/products/1.png" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <h4 class="product-name"><a href="#">MOCHILA PARA LAPTOP</a></h4>
+                                                    <span class="price" style="font-weight: 600">1 x S/ 199.90</span>
+                                                    <a class="remove-item" href="#"><i class="fa fa-close"></i></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="thumb">
+                                                    <img src="images/products/1.jpg" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <h4 class="product-name"><a href="#">MOUSE ÓPTICO USB</a></h4>
+                                                    <span class="price" style="font-weight: 600">1 x S/ 53.90</span>
+                                                    <a class="remove-item" href="#"><i class="fa fa-close"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="sub-total">
+                                            Subtotal: S/ 253.80
+                                        </div>
+                                        <div class="group-button">
+                                            <a href="carrito.html" class="button">Ver mi carrito</a>
+                                            <a href="checkout.html" class="check-out button">Pagar ahora</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="box-settings">
                                     <span class="icon pe-7s-user"></span>
@@ -52,79 +85,35 @@
                                         <div class="setting-content">
                                             <div class="setting-option">
                                                 <ul>
-                                                    <li><a href="mi-perfil.html"><img src="images/iconos/gear.png" alt=""><span>Mi perfil</span></a></li>
+                                                    <li><a href="mi-perfil.html"><i class="icon-heart icons"></i><span>Mi perfil</span></a></li>
 
-                                                    <li><a href="index.html"><img src="images/iconos/cerrar-sesion.png" alt=""><span>Cerrar sesión</span></a></li>
+                                                    <li><a href="login.html"><i class="icon-note icons"></i><span>Cerrar sesión</span></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="slogan"><img src="images/logos/logo.png" height="44" alt=""></div>
                         </div>
-                        <ul class="boutique-nav main-menu clone-main-menu text-left col-md-5 col-sm-12">
-                            <!-- <li class="hidden-xs hidden-sm">
-                                <a href="index.html"><img src="images/logos/mundo.png" alt="" height="40"></a>
-                            </li> -->
+                        <ul class="boutique-nav main-menu clone-main-menu">
                             <li class="">
-                                <a href="index.html"><img src="images/iconos/home.png" alt=""> Inicio</a>
+                                <a href="index.html"><span class="icon pe-7s-home"></span> Inicio</a>
                             </li>
                             <li class="">
-                                <a href="productos.html"><img src="images/iconos/producto.png" alt=""> Productos</a>
+                                <a href="productos.html"><span class="icon pe-7s-shopbag"></span> Productos</a>
                             </li>
                             <li class="">
-                                <a href="experiencias.html"><img src="images/iconos/beneficio.png" alt=""> Beneficios</a>
+                                <a href="experiencias.html"><span class="icon pe-7s-plus"></span> Beneficios</a>
                             </li>
                             <li class="">
-                                <a href="tarjeta.html"><img src="images/iconos/tarjeta.png" alt=""> Tarjeta de membresía</a>
+                                <a href="como-funciona.html"><span class="icon pe-7s-info"></span> ¿Cómo funciona?</a>
                             </li>
-                            
-                        </ul>
-                        <ul class="boutique-nav main-menu clone-main-menu text-right col-md-2 col-sm-12 col-xs-12 head-logo">
-                            <li class="hidden-xs hidden-sm">
-                                <a href="index.html"><img src="images/logos/mundo.png" alt="" height="60"></a>
-                            </li>
-                        </ul>
-                        <ul class="boutique-nav main-menu clone-main-menu text-right col-md-5 col-sm-12 col-xs-12">
-
-                            <li class="hidden-xs">
-                                <form class="box-search">
-                                    <button class="button-search"><i class="fa fa-search"></i></button>
-                                    <input type="text" class="search" placeholder="Buscador">
-                                </form>
-                            </li>
-
                             <li class="">
-                                <a data-toggle="modal" data-target="#login" class="orange">Inicia sesión</a>
+                                <a href="tarjeta.html"><span class="icon pe-7s-credit"></span> Tarjeta virtual</a>
                             </li>
-                            <li class="buton-head">
-                                <a class="button" href="registro.html" style="width: auto">Regístrate</a>
-                            </li>
-                            <li class="hidden-xs" style="display: none">
-                                <div class="mini-cart">
-                                    <a class="cart-link" data-toggle="modal" data-target="#totalCarrito"><span class="icon pe-7s-cart"></span> <span class="count">2</span></a>
-
-                                </div>
-                            </li>
-                            <li class="hidden-xs" style="display: none">
-                                <div class="box-settings">
-                                    <span class="icon pe-7s-user"></span>
-                                    <div class="settings-wrapper ">
-                                        <div class="setting-content">
-                                            <div class="setting-option">
-                                                <ul>
-                                                    <li><a href="mi-perfil.html"><img src="images/iconos/gear.png" alt=""><span>Mi perfil</span></a></li>
-
-                                                    <li><a href="index.html"><img src="images/iconos/cerrar-sesion.png" alt=""><span>Cerrar sesión</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="hidden-xs hidden-sm">
-                                <a href="index.html"><img src="images/logos/logo.png" alt="" height="36"></a>
+                            <li class="">
+                                <a href="contacto.html"><span class="icon pe-7s-mail"></span> Contáctenos</a>
                             </li>
                         </ul>
                     </div>

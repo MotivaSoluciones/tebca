@@ -232,7 +232,7 @@ input[type="password"]:focus {
 
 .button,
 input[type="submit"] {
-    color: #21C541;
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     padding: 12px 32px;
@@ -240,7 +240,7 @@ input[type="submit"] {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    border: 2px solid #21C541;
+    background-color: #21C541;
     font-size: 18px;
     line-height: 16px;
     width: 100%;
@@ -1929,7 +1929,7 @@ blockquote.style2:after {
 
 .header.style3 .main-menu > li > a:hover,
 .header.style3 .main-menu > li.active > a {
-    /*    color: #E14E0E;*/
+        color:#21C541;
     font-weight: 600;
 }
 
@@ -2882,8 +2882,6 @@ blockquote.style2:after {
 
 .header.style3.ontop .menu-wapper {
     width: 100%;
-    display: flex;
-    align-items: center;
 }
 
 .header.style3.ontop .slogan {
@@ -3026,7 +3024,7 @@ PRODUCT
 .product-inner {
     margin-bottom: 20px;
     box-shadow: 2px 4px 10px 2px #ebebeb;
-    border-radius: 8px;
+    border-radius: 16px;
 
 }
 
@@ -3036,7 +3034,7 @@ PRODUCT
 }
 
 .product-item .product-thumb a img {
-    border-radius: 8px 8px 0 0;
+    border-radius: 16px 16px 0 0;
 }
 
 .product-item .product-thumb {
@@ -5731,18 +5729,6 @@ footer .footer-bottom .container .text-center {
 }
 
 /* tab-product */
-#tab-perfil .box-tabs {
-    display: flex;
-    flex-direction: column;
-    max-width: 210px;
-    width: 100%;
-}
-#tab-perfil{
-    display: flex;
-}
-#tab-perfil .tab-content{
-    width: 100%;
-}
 
 .tab-product .nav-tab {
     /* border-bottom: 2px solid #ECECEC;
@@ -5824,7 +5810,7 @@ footer .footer-bottom .container .text-center {
 }
 
 .tab-product .tab-container {
-    margin-left: 30px;
+    margin-top: 40px;
 }
 
 .tab-product.style2 li.text-head {
@@ -6442,14 +6428,14 @@ footer .footer-bottom .container .text-center {
 }
 
 .dscto {
-    max-width: 100px;
+    display: none;
     position: absolute;
-    top: 9px;
-    left: 0px;
+    top: 8px;
+    right: 8px;
     height: 32px;
     text-transform: uppercase;
     background: #21C541;
-    border-radius: 0px 16px 16px 0px;
+    border-radius: 16px;
     color: #fff;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -6458,7 +6444,7 @@ footer .footer-bottom .container .text-center {
     word-break: break-word;
     z-index: 5;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     text-align: center;
 }
@@ -8713,10 +8699,6 @@ table {
     margin-top: 5px!important;
 }
 
-.margin-top-25 {
-    margin-top: 25px!important;
-}
-
 .margin-top-95 {
     margin-top: 95px!important;
 }
@@ -9128,7 +9110,7 @@ RESPONSIVE
         padding-left: 0;
     }
     .header.style3 .logo {
-        text-align: center;
+        /*        text-align: center;*/
     }
     .header.style3 .main-menu > li {
         padding: 0 15px;
@@ -9697,8 +9679,8 @@ RESPONSIVE
 }
 
 .marca {
-    font-size: 14px;
-    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-family: ""Montserrat", Sans-serif";
     color: #8B8B8B;
     margin-bottom: 0px;
 }
@@ -9805,7 +9787,6 @@ RESPONSIVE
 
 .clone-main-menu {
     /*    float: right;*/
-    text-align: center;
 }
 
 .entry-button {
@@ -9950,13 +9931,6 @@ RESPONSIVE
     border-radius: 16px;
 }
 
-.mod-cent{
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin: 10px 0px;
-}
-
 .modal-header .close {
     color: #21C541;
     position: absolute;
@@ -9965,21 +9939,13 @@ RESPONSIVE
     opacity: 1;
 }
 
-.modal-header h4 {
-    text-align: center;
-    margin: 5px 0px;
-    font-size: 17px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
 #registrate .modal-header,
 #registrate .modal-body,
 #info .modal-header,
 #info .modal-body,
 #login .modal-header,
 #login .modal-body {
-    padding: 0 26px;
+    padding: 0 56px;
 }
 
 #login .modal-dialog {
@@ -10038,9 +10004,7 @@ RESPONSIVE
     box-shadow: 1.50556px 3.01111px 7.52778px 1.50556px #ebebeb;
     border-radius: 6px;
     text-align: center;
-    height: 48px;
-    width: 130px;
-    padding: 6px;
+    width: 100px;
     /*    padding-top: 5px;*/
 }
 
@@ -10160,7 +10124,7 @@ RESPONSIVE
 }
 
 #totalCarrito .modal-dialog {
-    width: 400px;
+    width: 360px;
     position: absolute;
     right: 0;
     margin: 0!important;
@@ -10205,8 +10169,9 @@ RESPONSIVE
 }
 
 .logo-ingreso {
-    display: block;
-    margin: auto;
+    position: absolute;
+    right: 56px;
+    top: 65px;
 }
 
 .box-carrito {
@@ -10251,21 +10216,4 @@ RESPONSIVE
 }
 .panel-title {
     font-weight: 600;
-}
-
-.text-cent{
-    text-align: center;
-}
-
-.buton-head a{
-    background-color: #21C541;
-}
-
-.menu-wapper{
-    display: flex;
-    align-items: center;
-}
-
-.head-logo li a{
-    padding: 12px 0px;
 }

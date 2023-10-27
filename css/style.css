@@ -6460,6 +6460,7 @@ footer .footer-bottom .container .text-center {
     background-color: #fff;
     padding: 15px;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .product-details-right .breadcrumbs {
